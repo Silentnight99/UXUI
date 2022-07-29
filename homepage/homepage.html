@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Room booking</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="pre-nav" style="background:#02210F;">
+                    <img id= "logo"src="logo.png" width="200" height="150">
+                    <img id= "account-logo"src="account-logo.png" width="100" height="100">
+                    <ul>
+                        
+
+                            <li><button id="call"><img src="img-call.png"/></button></li>
+                            <li><p id= "number"style="color: aliceblue;">033128489</p></li>
+                            <li><a>Register</a></li>
+                            <li><a>Login</a></li>
+                </ul>
+                
+                </nav>
+                <nav class="mid-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Discount</a></li>
+                        <li><a href="#">Notification</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <img id= "background-img "src="booking 1.png" style="width: 1870px;" style="display: inline-block;">
+                </div>
+                <div class="inside">  
+                       <form action="/form/submit" method="GET">
+                            <input type="text" name="text" class="search" placeholder="Search here!">
+                            <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
+                       </form> 
+                       &nbsp;
+                        <input type="datetime-local" id="order-room" value="2018-06-12T19:30">
+                        &nbsp;
+                        <input type="datetime-local" id="check-room" value="2018-06-12T19:30">
+                        &nbsp;
+                        <select name="cars" id="cars">
+                            <option value="volvo">2 Person</option>
+                            <option value="saab">3 Person</option>
+                            <option value="mercedes">4 Person</option>
+                            <option value="audi">5 Person</option>
+                            <option value="audi">Room for 6 or more</option>
+                          </select>
+                          &nbsp;
+                          <select name="cars" id="cars">
+                            <option value="volvo">1 Room</option>
+                            <option value="saab">2 Room</option>
+                            <option value="mercedes">3 Room</option>
+                          </select>
+                          &nbsp;
+                        <button>Search</button>
+                </div>
+                <div class="introduce">
+                    <table align="center">
+                        <td rowspan="2">
+                    <h1 style="text-decoration: dashed;">HOUSE LAND / 10 year of excellent</h1>
+                    <p style="font-size: 24px; text-align: justify;">HOUSE LAND Hotel is a special place for all types of events<br> and meetings. 
+                        We offer more than 2,500 square meters <br>including 18 meeting rooms, in which some meeting rooms<br> have natural light, 
+                        spacious lounge area and facilities<br> equipped with modern meeting facilities, possibly Meet<br> the different needs of customers. 
+                        Yen Yen Banquet Room with<br> a completely free-standing column design, 1,080m2 wide,<br> accommodating up to 1,100 guests. 
+                        The dedicated <br>conference service staff is well-trained and intensive to<br> assist you during the event as well as the conference at the <br>hotel. 
+                        Was voted the best business hotel in VietNam. HOUSE<br> LAND Hotel with the most number of villas, rooms, and <br>meeting rooms in the city along with the Aqua Fitness Spa,<br>
+                        Sheraton Fitness fitness center, and 8 restaurants and bars<br> with a variety of styles Culinary ways that can meet the <br>needs and tastes of customers.</p>
+                    </td>
+                        <th>
+                            <img src="cert.png">
+                        </th>
+                    </th>
+                    <tr>
+                        <th>
+                        <img src="about.png" alt="" width="200px">
+                    </th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="room">
+                    <table align="center" id ="room-opt">
+                        <tr>
+                            <td>
+                            <img src="Phong 1.png" alt="" width="850px">
+                            <button id="btn-room1"><b>Villa Houseland</b></button>
+                            <textarea id="cost-room1">1000$/Night</textarea>
+                            </td>
+                            <td>
+                                <img src="Phong 2.png" alt="" width="850px">
+                                <button id="btn-room2"><b>Family Room</b></button>
+                                <textarea id="cost-room2">150$/Night</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="Phong 3.png" alt="" width="850px">
+                                <button id="btn-room3"><b>Double Room</b></button>
+                                <textarea id="cost-room3">100$/Night</textarea>
+                            </td>
+                            <td>
+                                <img src="Phong 4.png" alt="" width="850px">
+                                <button id="btn-room4"><b>Deluxe Room</b></button>
+                                <textarea id="cost-room4">200$/Night</textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="recomend">
+                    <table align="center" id ="room-opt">
+                        <tr>
+                            <td>
+                            <img src="blog_1 1.png" alt="" width="800px">
+                            <a id="a-1" href="">Top dream destination</a>
+                            <img src="d 1.png">
+                            <button id="btn-rec1">Read more</button>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <img src="blog_3 1.png" alt="" width="800px">
+                                <a id="a-2" href="">Perfect beach wedding</a>
+                                <img src="d 1.png">
+                                <button id="btn-rec1">Read more</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="info">
+                    <p style="font-weight: bold; font-size: 25px; border:3px; border-style:solid; border-color:black; padding: 1em; position: absolute; left: 45%;">HOUSE LAND</p>
+                </div>
+                <br><br><br><br><br><br>
+                <p style="font-size: 20px;text-align: center;">Since 1999</p>
+                <div class="info-2">
+                    <table style= "text-align:left;" id ="info">
+                        <td>
+                            <p style="font-weight: bold; font-size: 25px;">Our adress</p>
+                            <p style="font-size: 25px;">19 Nguyen Huu Tho, Ward Tan Phong, District 7 Ho Chi Minh City</p>
+                        </td>
+                        <td>
+                            <P style="font-weight: bold; font-size: 25px;">Reservations</P>
+                            <p style="font-size: 25px;">Tel: 0333 128 489</p>
+                            <p style="font-size: 25px;">reservation@hotelhouseland.com</p>
+                        
+                        </td>
+                        <td>
+                            <img src="cert.png" width="200px">
+                        
+                        </td>
+                        <td>
+                            <img src="about.png" alt="" width="150px">
+                        </td>
+                    </table>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>

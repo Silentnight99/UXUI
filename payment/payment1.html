@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Payment1</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="payment.css" />
+    </head>
+    <body>
+        <div class="res">
+            <nav style="background:blue; padding: 1px;">
+            
+                <p style="font-weight: bold; font-size: 30px;  color: white; color:white; text-align: center;">THẺ QUỐC TẾ</p>
+            </nav>
+            <p style="font-weight: bold; font-size: 20px;">Hình thức thanh toán</p>
+            <select name="card1" id="card" style="font-size: 20px; width: 600px; height: 40px;">
+                <option value="visa">Visa</option>
+                <option value="paypal">Mastercard</option>
+                <option value="credit">JCB</option>
+                <option value="cash">AMEX</option>
+              </select>
+        <table class="payment1">
+            <tr>
+                <td colspan="2">
+                    
+                    <p style="font-size: 20px; font-weight: bold;">Tên trên thẻ *</p>
+                    <textarea style="width:300px"></textarea>
+                    
+                <td rowspan="3">
+                    <img src="bank-card.png" style="width: 400px;">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p style="font-size: 20px;font-weight: bold;">Số thẻ tín dụng *</p>
+                    <textarea style="width:300px"></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <p style="font-size: 20px;font-weight: bold;">Ngày hết hạn</p>
+                    <textarea style="width:120px;"></textarea>
+                </td>
+                <td>
+                    <p style="font-size: 20px;font-weight: bold;">Mã thẻ CVC</p>
+                    <textarea style="width:120px;"></textarea>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+    </table>
+    <br><br>
+        <div class="res-1">
+
+                <button id="click-pay">THANH TOÁN</button>
+                
+</div>
+    </body>

@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+    .pre-nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content {
+        font-size: 1rem;
+        
+    }
+}
+body {
+
+    height: 100%;
+}
+
+.res {
+    margin: 0 auto;
+    width: 900px;
+    height: 800px;
+    max-width: 100%;
+}
+
+.payment{
+    border-spacing: 30px;
+    width: 1000px;
+}
+.payment1{
+    width: 1000px;
+}
+#click-res{
+    background-color: blue;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    align-self: center;
+    font-size: 25px;
+    color: white;
+    display: grid;
+    margin-left: 30px;
+    width: 1000px;
+    
+}
+#click-res:hover{
+    background-image: linear-gradient(to bottom, #97e8ae, #3be36b);
+}
+
+#click-pay{
+    background-color: black;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    align-self: center;
+    font-size: 25px;
+    color: white;
+    display: grid;
+    margin-left: 300px;
+    width: 250px;
+    
+}
+#click-pay:hover{
+    background-image: linear-gradient(to bottom, #97e8ae, #3be36b);
+}

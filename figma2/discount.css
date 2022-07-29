@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+	color: black;
+	background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container{
+	padding: 20px;
+}
+
+.item{  
+  width: 130px;
+  height: 140px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img{
+  width: 110px;
+  height: 80px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.row {
+	background-color: while;
+	margin-left: 50px;
+    padding: 20px;
+	padding-left: 30px;
+}
+
+.row-footer {
+	height: 100px;
+	padding-left: 30px;
+    background: while;
+
+}
+
+.row-footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.row-footer ul li {
+    font-size: 16px;
+    font-weight: 500;
+	text-align: left;
+    color: black;
+}
+.row-footer p {
+    color: black;
+}
+
+.row-footer ul li a {
+    color: black;
+}
+.row-footer ul.social-media li {
+    float: left;
+}
+
+.footer {
+	padding: 0px;
+  background-color: #ADD8E6;
+  color:black;
+}
+.footer p {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.header {
+	width: 1440px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+  background-color: #02210F;
+  color:white;
+  padding-right: 50px;
+}
+.header h3 {
+	float: right;
+	width: 80%;
+	height: 100px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+  padding: 15px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.left{
+	float: left;
+	width: 30%;
+	height: 400px;
+	padding-right: 20px;
+
+}
+
+.left p{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.center{
+	float: left;
+	width: 30%;
+	height: 400px;
+
+	background: rgba(196, 196, 196, 0.33);
+}
+
+.center p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.right{
+	float:right;
+	width: 30%;
+	height: 400px;
+	background: rgba(196, 196, 196, 0.33);
+}
+
+.right p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+
+button{
+	width: 150px;
+	height: 50px;
+	background: #03A4FF;
+}
+
+

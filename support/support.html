@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Support</title>
+        <link rel="stylesheet" href="./support_files/all.min.css">
+        <link rel="stylesheet" href="./support_files/sp.css">
+        <link rel="stylesheet" href="./support_files/jquery.selectlist.css">
+        
+
+    </head>
+    <body>
+        <div class="res">
+            <nav style="background:#02210F; width: 1300px;">
+                <table>
+                    <tbody><tr>
+                <td><img src="./support_files/logo.png" width="150" height="95"></td>
+            
+                <td><p style="font-weight: bold; font-size: 35px; border-style:solid; border-color:#02210F; color: white; margin-left: 200px;">HOUSE LAND SUPPORT</p></td>
+            </tr>
+            
+            </tbody></table>
+    </nav>
+    <nav>
+        <p style="color: red; font-size: 20px;">Note: Please fill out the form below for assistance.</p>
+        <p style="color: red; font-size: 20px;">Note: Email adress and phone number CANNOT UPDATE after successfull registation</p>
+        <table style="font-size: 25px; border-collapse: collapse;">
+            <tbody><tr>
+                <td>
+                    <p style="display: inline;">First name and last name</p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <textarea style="width: 400px;"></textarea>
+                    <p style="color: red;">Please fill in this field</p>
+                </td>
+                <td>
+                    <p style="display: inline;">Room id </p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <textarea style="width: 400px;"></textarea>
+                    <p style="color: red;">Please fill in this field</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <p style="display: inline;">Email </p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <textarea style="width: 400px;"></textarea>
+                    <p style="color: red;">Please fill in this field</p>
+               
+                </td>
+                <td>
+                    <p style="display: inline;">Phone number </p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <textarea style="width: 400px;"></textarea>
+                    <p style="color: red;">Please fill in this field</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="display: inline;">Topic </p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <div id="demo" class="select-wrapper " style="z-index: 10; width: 300px; height: 40px;">
+                        <input type="hidden" name="demo" value="3">
+                        <i class="icon select-down" style="top: 17px; border-width: 6px; border-color: rgb(51, 51, 51) transparent transparent;"></i>
+                        <input type="button" class="select-button" value="Choose topic..." style="width: 298px; height: 40px;">
+                        <div class="select-list" style="width: 298px; top: 41px; max-height: 400px;">
+                            <ul style="max-height: 400px; line-height: 34px;">
+                                <li data-value="0" style="width: 290px; height: 34px;">Room service</li>
+                                <li data-value="1" style="width: 290px; height: 34px;">Booking</li>
+                                <li data-value="2" style="width: 290px; height: 34px;">Quality</li>
+                                <li data-value="3" class="selected" style="width: 290px; height: 34px;">Choose topic...</li>
+                                <li data-value="4" style="width: 290px; height: 34px;">Check out</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr style="border-collapse: collapse;">
+                <td>
+                    <p style="display: inline;">Description </p><p style="color: red; display: inline; ">(*)</p><p></p>
+                    <textarea style="width: 800px; height: 200px;"></textarea>
+                    
+               
+                </td>
+                <td>
+                    <button id="click-res">SEND</button>
+                </td>
+            </tr>
+    </tbody></table>
+    <p style="color: red; font-size: 25px;display: inline;">Please attach pictures for fastest support</p>
+    <p style="font-size: 25px; ">(Note: Only *.jpg, *.png, *.gif formats are allowed and the maximum file size is 10MB.)    </p>
+</nav>
+<p style="font-size: 20px;border-style:solid; border-color:#ADD8E6; text-align: center; color: black; background-color: #ADD8E6;width: 1300px;">Bản quyền thuộc về Houseland Team</p>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.selectlist.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('select').selectlist({
+			zIndex: 10,
+			width: 300,
+			height: 40,
+			border: '1px solid #ccccc',
+			showMaxHeight: 400,
+		});		
+	})
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body></html>
